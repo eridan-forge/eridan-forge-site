@@ -29,12 +29,6 @@ body {
     color: #2c2c2c;
 }
 
-
-<<<<<<< HEAD
-=======
-
-/* ========== ШАПКА (АДАПТИВНАЯ) ========== */
->>>>>>> f9872e4 (fix: адаптивная шапка, ховер, телефон)
 .topbar {
     background-color: #000;
     display: flex;
@@ -129,11 +123,6 @@ body {
     padding: 0;
 }
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> f9872e4 (fix: адаптивная шапка, ховер, телефон)
 .menu-btn span {
     width: 28px;
     height: 3px;
@@ -1932,12 +1921,6 @@ body.modal-open .runner-v {
 }
 
 
-<<<<<<< HEAD
-/* ЧАСТЬ 9 БОНУУС */
-=======
-
-/* ========== ТЕЛЕФОН: ФИКС ШАПКИ ========== */
->>>>>>> f9872e4 (fix: адаптивная шапка, ховер, телефон)
 @media (max-width: 768px) {
     .topbar {
         flex-direction: column !important;
@@ -1976,8 +1959,3 @@ body.modal-open .runner-v {
         width: 24px !important;
         height: 24px !important;
     }
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> f9872e4 (fix: адаптивная шапка, ховер, телефон)
