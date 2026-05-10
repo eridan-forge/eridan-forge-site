@@ -1,6 +1,6 @@
 # 🤖 Eridan Forge — кружок робототехники и веб-разработки
 
-**Живая ссылка:** https://eridan-forge.github.io/eridan-forge-site/ROBOT-SITE/index.html
+**Живая ссылка:** https://eridan-forge.github.io/eridan-forge-site/ROBOT-SITE/
 
 ---
 
