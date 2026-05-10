@@ -1,0 +1,85 @@
+<!-- ЧАСТЬ 3 -->
+    <div class="overlay" id="overlay"></div>
+    
+    <div class="side-menu" id="sideMenu">
+        <button class="close-menu" id="closeMenuBtn">✕</button>
+        
+        <div class="menu-links">
+    <a href="#home">Главная</a>
+    <a href="#about">О нас</a>
+    <a href="#schedule">Расписание</a>
+    <a href="#contacts">Контакты</a>
+</div>
+        
+        <div class="menu-social">
+            <a href="#"><img src="https://img.icons8.com/material-rounded/24/000000/telegram-app.png" alt="Telegram"></a>
+            <a href="#"><img src="https://img.icons8.com/material-rounded/24/000000/whatsapp--v1.png" alt="WhatsApp"></a>
+            <a href="#"><img src="https://img.icons8.com/material-rounded/24/000000/vk-com--v1.png" alt="VK"></a>
+        </div>
+        
+        <div class="menu-phone">
+            7 (978) 249-92-04
+        </div>
+    </div>
+
+
+
+
+<div class="call-modal-overlay" id="callModalOverlay"></div>
+
+<div class="call-modal" id="callModal">
+   
+    
+    <div class="call-modal-header">
+        <button class="close-call-modal" id="closeCallModalBtn">✕</button>
+        <h3>📞 Обратный звонок</h3>
+        <p>Оставьте номер — мы перезвоним в ближайшее время</p>
+    </div>
+    
+                    <div class="call-modal-body">
+            <div class="phone-row">
+                <div class="phone-input-wrapper">
+                   
+                    <div class="phone-code-wrapper" id="countrySelectorBtn">
+                        <span class="country-code" id="selectedCode">+7</span>
+                        <span class="arrow-icon" id="arrowIcon">▼</span>
+                    </div>
+                    
+                    
+                    <div class="phone-input">
+                        <input type="tel" id="phoneNumber" placeholder="(000) 000-00-00" maxlength="15">
+                    </div>
+                    
+                   
+                    <div class="flag-dropdown" id="flagDropdown">
+                        <div class="flag-option" data-flag="🇷🇺" data-code="+7" data-country="Россия">
+                            <span class="flag">🇷🇺</span>
+                            <span class="country-name">Россия</span>
+                            <span class="country-code">+7</span>
+                        </div>
+                        <div class="flag-option" data-flag="🇺🇸" data-code="+1" data-country="США">
+                            <span class="flag">🇺🇸</span>
+                            <span class="country-name">США</span>
+                            <span class="country-code">+1</span>
+                        </div>
+                        <div class="flag-option" data-flag="🇰🇿" data-code="+7" data-country="Казахстан">
+                            <span class="flag">🇰🇿</span>
+                            <span class="country-name">Казахстан</span>
+                            <span class="country-code">+7</span>
+                        </div>
+                        <div class="flag-option" data-flag="🇧🇾" data-code="+375" data-country="Беларусь">
+                            <span class="flag">🇧🇾</span>
+                            <span class="country-name">Беларусь</span>
+                            <span class="country-code">+375</span>
+                        </div>
+                        <div class="flag-option" data-flag="🇺🇦" data-code="+380" data-country="Украина">
+                            <span class="flag">🇺🇦</span>
+                            <span class="country-name">Украина</span>
+                            <span class="country-code">+380</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="submit-call-btn" id="submitCallBtn">Перезвоните мне</button>
+        </div>

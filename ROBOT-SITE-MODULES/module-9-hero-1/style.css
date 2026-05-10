@@ -1,0 +1,70 @@
+/* ЧАСТЬ 9 */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;  
+}
+
+
+
+.contact-phone {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    color: #555;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.contact-phone:hover {
+    color: #e31e24;
+}
+
+.contact-email {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    color: #555;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.contact-email:hover {
+    color: #e31e24;
+}
+
+.contact-phone-1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.contact-phone-1:hover {
+    color: #e31e24;
+}
+
+.contact-email-1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.contact-email-1:hover {
+    color: #e31e24;
+}
+
+body.menu-open .grid-neon,
+body.modal-open .grid-neon,
+body.menu-open .runner-h,
+body.modal-open .runner-h,
+body.menu-open .runner-v,
+body.modal-open .runner-v {
+    display: none !important;
+}
+
+
+.overlay,
+.call-modal-overlay {
+    backdrop-filter: none !important;
+}

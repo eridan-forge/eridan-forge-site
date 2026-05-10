@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=EB+Garamond:wght@400;500;600;700&display=swap');
+
+* { /*ЧАСТЬ 1*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+}
+
+.hero-title, .why-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+.hero-subtitle, .why-description, .feature p {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #2c2c2c;
+}
+
+.topbar {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 997;
+    transition: box-shadow 0.3s ease;
+
+}
+
+.topbar.scrolled {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-icon {
+    font-size: 38px;
+}
+
+.logo-text {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.contacts a img {
+    width: 38px;
+    height: 38px;
+    transition: transform 0.2s;
+}
+
+.contacts a img:hover {
+    transform: scale(1.1);
+}
+
+.phone {
+    color: white;
+    font-size: 34px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.callback-btn {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 17px 39px;
+    font-size: 19px;
+    font-family: 'Courier New' monospace;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.callback-btn:hover {
+    background: white;
+    color: black;
+}
+
+.menu-btn {
+    background-color: #e31e24;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.menu-btn span {
+    width: 28px;
+    height: 3px;
+    background: white;
+    border-radius: 2px;
+    transform-origin: right center;
+    transition: transform 0.25s cubic-bezier(0.34, 1.2, 0.64, 1);
+}
+
+.menu-btn span:nth-child(1) {
+    transform: scaleX(0.6);
+    transform-origin: right center;
+}
+
+.menu-btn span:nth-child(2) {
+    transform: scaleX(0.8);
+    transform-origin: right center;
+}
+
+.menu-btn span:nth-child(3) {
+    transform: scaleX(0.95); 
+    transform-origin: right center;
+}
+
+.menu-btn:hover span:nth-child(3) {
+    transform: scaleX(0.95); 
+}
+
+.menu-btn:hover span:nth-child(2) {
+    transform: scaleX(0.95);
+    transition-delay: 0.05s;
+}
+
+.menu-btn:hover span:nth-child(1) {
+    transform: scaleX(0.95);
+    transition-delay: 0.1s;
+}
+
+.menu-btn span:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.menu-btn span:nth-child(2) {
+    transition-delay: 0.05s;
+}
+
+.menu-btn span:nth-child(3) {
+    transition-delay: 0s;
+}
+
+.menu-btn:active {
+    transform: scale(0.95);
+}
