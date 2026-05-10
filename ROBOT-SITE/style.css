@@ -42,10 +42,6 @@ body {
     z-index: 997;
 }
 
-.topbar.scrolled {
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
-
 .logo {
     display: flex;
     align-items: center;
@@ -77,10 +73,6 @@ body {
     transition: transform 0.2s;
 }
 
-.contacts a img:hover {
-    transform: scale(1.1);
-}
-
 .phone {
     color: white;
     font-size: 16px;
@@ -95,7 +87,6 @@ body {
     color: white;
     padding: 8px 16px;
     font-size: 14px;
-    font-family: 'Courier New', monospace;
     font-weight: 600;
     cursor: pointer;
     transition: 0.3s;
