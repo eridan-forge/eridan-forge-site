@@ -30,42 +30,36 @@ body {
 }
 
 
-
-
 .topbar {
     background-color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 15px 20px;
     flex-wrap: wrap;
+    gap: 10px;
     position: sticky;
     top: 0;
     z-index: 997;
-    transition: box-shadow 0.3s ease;
-
 }
 
 .topbar.scrolled {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-
-
-
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 }
 
 .logo-icon {
-    font-size: 38px;
+    font-size: 28px;
 }
 
 .logo-text {
     color: white;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -73,14 +67,14 @@ body {
 .contacts {
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 12px;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
 
 .contacts a img {
-    width: 38px;
-    height: 38px;
+    width: 28px;
+    height: 28px;
     transition: transform 0.2s;
 }
 
@@ -90,24 +84,24 @@ body {
 
 .phone {
     color: white;
-    font-size: 34px;
+    font-size: 16px;
     font-weight: 500;
-    letter-spacing: 1px;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .callback-btn {
     background: transparent;
     border: 1px solid white;
     color: white;
-    padding: 15px 35px;
-    font-size: 18px;
-    font-family: 'Courier New' monospace;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
     font-weight: 600;
-    letter-spacing: 1px;
     cursor: pointer;
     transition: 0.3s;
     border-radius: 4px;
+    white-space: nowrap;
 }
 
 .callback-btn:hover {
@@ -118,17 +112,19 @@ body {
 .menu-btn {
     background-color: #e31e24;
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
     cursor: pointer;
     padding: 0;
 }
+
+
 
 .menu-btn span {
     width: 28px;
@@ -1928,4 +1924,46 @@ body.modal-open .runner-v {
 .overlay,
 .call-modal-overlay {
     backdrop-filter: none !important;
+}
+
+
+/* ЧАСТЬ 9 БОНУУС */
+@media (max-width: 768px) {
+    .topbar {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 12px 15px !important;
+    }
+    
+    .logo {
+        margin-bottom: 10px !important;
+        justify-content: center !important;
+    }
+    
+    .contacts {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 10px !important;
+    }
+    
+    .phone {
+        font-size: 14px !important;
+        white-space: nowrap !important;
+    }
+    
+    .callback-btn {
+        padding: 5px 12px !important;
+        font-size: 12px !important;
+    }
+    
+    .menu-btn {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    
+    .contacts a img {
+        width: 24px !important;
+        height: 24px !important;
+    }
 }
