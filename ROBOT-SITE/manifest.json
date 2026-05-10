@@ -2,7 +2,7 @@
   "name": "Eridan Forge — Кружок робототехники",
   "short_name": "Eridan Forge",
   "description": "Робототехника и веб-разработка для детей и подростков",
-  "start_url": "/",
+  "start_url": "/ROBOT-SITE/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
