@@ -68,3 +68,51 @@ body.modal-open .runner-v {
 .call-modal-overlay {
     backdrop-filter: none !important;
 }
+
+
+
+/* ЧАСТЬ 9 БОНУУС */
+@media (max-width: 768px) {
+    .topbar {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 12px 15px !important;
+    }
+    
+    .logo {
+        margin-bottom: 10px !important;
+        justify-content: center !important;
+    }
+    
+    .contacts {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 10px !important;
+    }
+    
+    .phone {
+        font-size: 14px !important;
+        white-space: nowrap !important;
+    }
+    
+    .callback-btn {
+        padding: 5px 12px !important;
+        font-size: 12px !important;
+    }
+    
+    .menu-btn {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    
+    .contacts a img {
+        width: 24px !important;
+        height: 24px !important;
+    }
+}
+
+
+
+
+
